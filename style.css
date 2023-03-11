@@ -281,9 +281,6 @@ footer {
 .social-media {
   display: inline-block;
   width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 .social-link {
