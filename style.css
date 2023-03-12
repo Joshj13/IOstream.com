@@ -297,11 +297,12 @@ footer {
 }
 
 /* Font Awesome icons */
-.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-linkedin-in {
+.fa-facebook-f, .fa-instagram, .fa-linkedin-in, .fa-youtube {
   font-size: 24px;
   vertical-align: middle;
   
 }
+
 
 ul {
   display: flex;
@@ -318,7 +319,7 @@ ul li {
 ul li a {
   width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: rgba(10, 1, 1, 0.384);
   text-align: center;
   line-height: 50px;
   font-size: 35px;
@@ -327,13 +328,13 @@ ul li a {
   border-radius: 50%;
   position: relative;
   overflow: hidden;
-  border: 3px solid #fff;
+  border: 3px solid rgb(15, 221, 8);
   z-index: 1;
 }
 
 ul li a .icon {
   position: relative;
-  color: #000000fa;
+  color: #ffffff;
   transition: .5s;
   z-index: 3;
 }
@@ -364,7 +365,7 @@ ul li:nth-child(1) a:before{
 }
 
 ul li:nth-child(2) a:before{
-  background: #55acee;
+  background: #ec08bbda;
 }
 
 ul li:nth-child(3) a:before {
