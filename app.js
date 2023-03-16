@@ -1,6 +1,8 @@
-
-
 function myFunction() {
   var x = document.getElementById("gallery");
-  x.classList.add("visible");
+  if (x.classList.contains("visible")) {
+    x.classList.remove("visible");
+  } else {
+    x.classList.add("visible");
+  }
 }
