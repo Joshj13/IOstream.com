@@ -12,9 +12,12 @@
 }
 
 .svg {
-    
+  transition: transform 0.2s ease-out;
 }
 
+.svg:hover {
+  transform: scale(1.2);
+}
 text {
   font-family: Helvetica, Arial, sansserif;
   font-size: 100px;
@@ -23,16 +26,8 @@ text {
   filter: url(#red-glow);
 }
 
-@media only screen and (min-width: 600px){
-  .glow {
-    font-size: 80px;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .glow {
-    font-size: 150px;
-  }
+@media screen and (max-width: 360px) and (max-height: 640px) {
+  /* Your styles for devices with a screen size of 360x640 */
 }
 
 
@@ -162,7 +157,7 @@ body {
 }
 
 .nav .link a {
-  text-decoration:none;
+  color: #f5f5f5;
 }
 
 /* .nav .link:before {
@@ -195,6 +190,11 @@ body {
 .nav .link:hover {
   cursor:pointer;
 }
+
+.nav .link a:hover {
+  text-decoration: underline;
+}
+
 .nav .link:hover:before {
   height:100%;
   filter:blur(30px);
